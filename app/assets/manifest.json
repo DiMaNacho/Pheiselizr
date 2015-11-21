@@ -12,14 +12,13 @@
       ],
       "main": true
     },
-    "customizer.js": {
-      "files": [
-        "scripts/customizer.js"
-      ]
-    },
     "jquery.js": {
       "bower": ["jquery"]
     }
+  },
+  "paths": {
+    "source": "./app/assets/",
+    "dist": "./app/dist/"
   },
   "config": {
     "devUrl": "http://example.dev"
